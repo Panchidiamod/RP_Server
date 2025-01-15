@@ -1,0 +1,39 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "gun_ammo",
+            "prefix": "gun_ammo/"
+        },
+        {
+            "type": "directory",
+            "source": "equiptment",
+            "prefix": "equiptment/"
+        },
+        {
+            "type": "directory",
+            "source": "medicine",
+            "prefix": "medicine/"
+        },
+        {
+            "type": "directory",
+            "source": "melee",
+            "prefix": "melee/"
+        },
+        {
+            "type": "directory",
+            "source": "other",
+            "prefix": "other/"
+        },
+        {
+            "type": "directory",
+            "source": "turret",
+            "prefix": "turret/"
+        },
+        {
+            "type": "directory",
+            "source": "custom_textures",
+            "prefix": "custom_textures/"
+        }
+    ]
+}

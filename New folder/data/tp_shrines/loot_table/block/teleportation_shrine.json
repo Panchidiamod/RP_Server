@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.tp_shrines.teleportation_shrine",
+                "fallback": "Teleportation Shrine",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tp_shrines:{teleportation_shrine:1b}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": ["tp_shrines.place_shrine"],
+                  "Invisible": true,
+                  "Silent": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 819291
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+loot give @s loot tp_shrines:block/teleportation_shrine

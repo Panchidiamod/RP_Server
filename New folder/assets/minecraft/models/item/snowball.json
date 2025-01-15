@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/snowball"
+  },
+  "overrides": [
+    { "predicate": {"custom_model_data": 19000}, "model": "item/equipment/pipe_bomb"},
+    { "predicate": {"custom_model_data": 19001}, "model": "item/equipment/molotov_cocktail"},
+    { "predicate": {"custom_model_data": 19002}, "model": "item/equipment/grenade"},
+    { "predicate": {"custom_model_data": 19003}, "model": "item/equipment/chemical_grenade"}
+  ]
+}

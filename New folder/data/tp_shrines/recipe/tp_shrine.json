@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "xxx",
+      "zyz",
+      "xvx"
+    ],
+    "key": {
+      "x": {
+        "item": "minecraft:polished_blackstone"
+      },
+      "v": {
+        "tag": "minecraft:soul_fire_base_blocks"
+      },
+      "z": {
+        "item": "minecraft:ender_pearl"
+      },
+      "y": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "result": {
+      "id": "minecraft:item_frame",
+      "count": 1,
+      "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:item_frame",
+              "Tags": ["tp_shrines.place_shrine"],
+              "Invisible": true,
+              "Silent": true
+            },
+            "minecraft:item_name": "{\"translate\": \"item.tp_shrines.teleportation_shrine\",\"fallback\": \"Teleportation Shrine\",\"italic\": false }",
+            "minecraft:custom_model_data": 819291,
+            "minecraft:custom_data": {"tp_shrines":{"teleportation_shrine":true}}
+      }
+  }
+}
