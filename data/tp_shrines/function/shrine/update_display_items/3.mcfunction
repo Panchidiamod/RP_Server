@@ -1,0 +1,2 @@
+$item replace block ~ ~ ~ container.12 with barrier[item_name='{"fallback":"Click to toggle!","italic":false,"color":"white","translate":"text.tp_shrines.toggle"}',custom_model_data=81929$(slot_3),custom_data={tp_shrines:{kill:1b,slot:3}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:barrier",count:1,components:{"minecraft:custom_data":{tp_shrines:{kill:1b}}}}},distance=..5]

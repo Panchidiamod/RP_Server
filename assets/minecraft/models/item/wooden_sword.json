@@ -1,0 +1,19 @@
+{
+ "parent": "item/handheld",
+ "textures": {
+  "layer0": "item/wooden_sword"
+ },
+
+ "overrides": [
+  { "predicate": {"custom_model_data": 787003}, "model": "item/melee/fire_axe"},
+  { "predicate": {"custom_model_data": 787004}, "model": "item/melee/golf_club"},
+  { "predicate": {"custom_model_data": 787006}, "model": "item/melee/machete"},
+  { "predicate": {"custom_model_data": 787007}, "model": "item/melee/metal_baseball_bat"},
+  { "predicate": {"custom_model_data": 787010}, "model": "item/melee/studded_baseball_bat"},
+  { "predicate": {"custom_model_data": 787011}, "model": "item/melee/wooden_baseball_bat"},
+  { "predicate": {"custom_model_data": 787012}, "model": "item/melee/cane"},
+  { "predicate": {"custom_model_data": 787013}, "model": "item/melee/tire_iron"},
+  { "predicate": {"custom_model_data": 787014}, "model": "item/melee/pipe_wrench"},
+  { "predicate": {"custom_model_data": 787015}, "model": "item/melee/crowbar"}
+ ]
+}

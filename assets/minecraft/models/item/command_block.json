@@ -1,0 +1,48 @@
+{
+    "parent": "block/cube_directional",
+    "textures": {
+        "particle": "block/command_block_back",
+        "down": "block/command_block_side",
+        "up": "block/command_block_side",
+        "north": "block/command_block_front",
+        "east": "block/command_block_side",
+        "south": "block/command_block_back",
+        "west": "block/command_block_side"
+    },
+
+    "overrides": [
+  		{ "predicate": {"custom_model_data": 889000}, "model": "item/ammo/standard/pistol_ammo"},
+  		{ "predicate": {"custom_model_data": 889001}, "model": "item/ammo/standard/assault_rifle_ammo"},
+  		{ "predicate": {"custom_model_data": 889002}, "model": "item/ammo/standard/shotgun_ammo"},
+  		{ "predicate": {"custom_model_data": 889003}, "model": "item/ammo/standard/sniper_rifle_ammo"},
+  		{ "predicate": {"custom_model_data": 889004}, "model": "item/ammo/thrower/chemical_thrower_ammo"},
+  		{ "predicate": {"custom_model_data": 889005}, "model": "item/ammo/thrower/ink_blaster_ammo"},
+  		{ "predicate": {"custom_model_data": 889006}, "model": "item/ammo/laser/9v_laser_battery"},
+      { "predicate": {"custom_model_data": 889007}, "model": "item/ammo/standard/rocket"},
+      { "predicate": {"custom_model_data": 889008}, "model": "item/ammo/standard/flamethrower_ammo"},
+      { "predicate": {"custom_model_data": 889009}, "model": "item/ammo/standard/minigun_ammo"},
+
+      { "predicate": {"custom_model_data": 889010}, "model": "item/ammo/pipe/pistol_ammo"},
+  		{ "predicate": {"custom_model_data": 889011}, "model": "item/ammo/pipe/assault_rifle_ammo"},
+      { "predicate": {"custom_model_data": 889012}, "model": "item/ammo/pipe/sniper_rifle_ammo"},
+  		{ "predicate": {"custom_model_data": 889013}, "model": "item/ammo/pipe/shotgun_ammo"},
+
+      { "predicate": {"custom_model_data": 889014}, "model": "item/ammo/modern/glock_17_ammo"},
+  		{ "predicate": {"custom_model_data": 889015}, "model": "item/ammo/modern/desert_eagle_ammo"},
+      { "predicate": {"custom_model_data": 889016}, "model": "item/ammo/modern/m4_carabine_ammo"},
+  		{ "predicate": {"custom_model_data": 889017}, "model": "item/ammo/modern/mp5_ammo"},
+      { "predicate": {"custom_model_data": 889018}, "model": "item/ammo/modern/ak47_ammo"},
+      { "predicate": {"custom_model_data": 889019}, "model": "item/ammo/modern/thompson_machine_gun_ammo"},
+      { "predicate": {"custom_model_data": 889020}, "model": "item/ammo/modern/shotgun_shell"},
+      { "predicate": {"custom_model_data": 889021}, "model": "item/ammo/modern/m1a_ammo"},
+      { "predicate": {"custom_model_data": 889022}, "model": "item/ammo/modern/barrett_m82_ammo"},
+
+      { "predicate": {"custom_model_data": 889023}, "model": "item/ammo/nes_zapper/double_a_battery"},
+
+      { "predicate": {"custom_model_data": 889024}, "model": "item/ammo/modern/44_magnum_ammo"},
+      { "predicate": {"custom_model_data": 889025}, "model": "item/ammo/modern/pg_7v_rocket"},
+      { "predicate": {"custom_model_data": 889026}, "model": "item/ammo/modern/m134_minigun_canister"},
+
+      { "predicate": {"custom_model_data": 889027}, "model": "item/ammo/pipe/old_9v_battery"}
+ ]
+}

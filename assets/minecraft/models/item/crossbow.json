@@ -1,0 +1,188 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "item/crossbow_standby"
+    },
+    "display": {
+      "thirdperson_righthand": {
+        "rotation": [
+          -90,
+          0,
+          -60
+        ],
+        "translation": [
+          2,
+          0.1,
+          -3
+        ],
+        "scale": [
+          0.9,
+          0.9,
+          0.9
+        ]
+      },
+      "thirdperson_lefthand": {
+        "rotation": [
+          -90,
+          0,
+          30
+        ],
+        "translation": [
+          2,
+          0.1,
+          -3
+        ],
+        "scale": [
+          0.9,
+          0.9,
+          0.9
+        ]
+      },
+      "firstperson_righthand": {
+        "rotation": [
+          -90,
+          0,
+          -55
+        ],
+        "translation": [
+          1.13,
+          3.2,
+          1.13
+        ],
+        "scale": [
+          0.68,
+          0.68,
+          0.68
+        ]
+      },
+      "firstperson_lefthand": {
+        "rotation": [
+          -90,
+          0,
+          35
+        ],
+        "translation": [
+          1.13,
+          3.2,
+          1.13
+        ],
+        "scale": [
+          0.68,
+          0.68,
+          0.68
+        ]
+      }
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "pulling": 1
+        },
+        "model": "item/crossbow_pulling_0"
+      },
+      {
+        "predicate": {
+          "pulling": 1,
+          "pull": 0.58
+        },
+        "model": "item/crossbow_pulling_1"
+      },
+      {
+        "predicate": {
+          "pulling": 1,
+          "pull": 1
+        },
+        "model": "item/crossbow_pulling_2"
+      },
+      {
+        "predicate": {
+          "charged": 1
+        },
+        "model": "item/crossbow_arrow"
+      },
+      {
+        "predicate": {
+          "charged": 1,
+          "firework": 1
+        },
+        "model": "item/crossbow_firework"
+      },
+  { "predicate": {"custom_model_data": 889001}, "model": "item/gun_crossbow/standard/pistol"},
+  { "predicate": {"custom_model_data": 889002}, "model": "item/gun_crossbow/standard/pistol_zoom"},
+  { "predicate": {"custom_model_data": 889003}, "model": "item/gun_crossbow/standard/assault_rifle"},
+  { "predicate": {"custom_model_data": 889004}, "model": "item/gun_crossbow/standard/assault_rifle_zoom"},
+  { "predicate": {"custom_model_data": 889005}, "model": "item/gun_crossbow/standard/sniper_rifle"},
+  { "predicate": {"custom_model_data": 889006}, "model": "item/gun_crossbow/standard/sniper_rifle_zoom"},
+  { "predicate": {"custom_model_data": 889007}, "model": "item/gun_crossbow/standard/shotgun"},
+  { "predicate": {"custom_model_data": 889008}, "model": "item/gun_crossbow/standard/shotgun_zoom"},
+  { "predicate": {"custom_model_data": 889009}, "model": "item/gun_crossbow/standard/bazooka"},
+  { "predicate": {"custom_model_data": 889010}, "model": "item/gun_crossbow/standard/bazooka_zoom"},
+  { "predicate": {"custom_model_data": 889011}, "model": "item/gun_crossbow/standard/flamethrower"},
+  { "predicate": {"custom_model_data": 889012}, "model": "item/gun_crossbow/standard/flamethrower_zoom"},
+  { "predicate": {"custom_model_data": 889013}, "model": "item/gun_crossbow/ray/ray_gun_green"},
+  { "predicate": {"custom_model_data": 889014}, "model": "item/gun_crossbow/ray/ray_gun_green_zoom"},
+  { "predicate": {"custom_model_data": 889015}, "model": "item/gun_crossbow/ray/ray_gun_blue"},
+  { "predicate": {"custom_model_data": 889016}, "model": "item/gun_crossbow/ray/ray_gun_blue_zoom"},
+  { "predicate": {"custom_model_data": 889017}, "model": "item/gun_crossbow/ray/ray_gun_pink"},
+  { "predicate": {"custom_model_data": 889018}, "model": "item/gun_crossbow/ray/ray_gun_pink_zoom"},
+  { "predicate": {"custom_model_data": 889019}, "model": "item/gun_crossbow/ray/ray_gun_red"},
+  { "predicate": {"custom_model_data": 889020}, "model": "item/gun_crossbow/ray/ray_gun_red_zoom"},
+  { "predicate": {"custom_model_data": 889021}, "model": "item/gun_crossbow/laser/laser_pistol"},
+  { "predicate": {"custom_model_data": 889022}, "model": "item/gun_crossbow/laser/laser_pistol_zoom"},
+  { "predicate": {"custom_model_data": 889023}, "model": "item/gun_crossbow/laser/laser_rifle"},
+  { "predicate": {"custom_model_data": 889024}, "model": "item/gun_crossbow/laser/laser_rifle_zoom"},
+  { "predicate": {"custom_model_data": 889025}, "model": "item/gun_crossbow/laser/assault_laser_rifle"},
+  { "predicate": {"custom_model_data": 889026}, "model": "item/gun_crossbow/laser/assault_laser_rifle_zoom"},
+  { "predicate": {"custom_model_data": 889027}, "model": "item/gun_crossbow/laser/laser_cannon"},
+  { "predicate": {"custom_model_data": 889028}, "model": "item/gun_crossbow/laser/laser_cannon_zoom"},
+
+  { "predicate": {"custom_model_data": 889039}, "model": "item/equipment/c4_remote"},
+  { "predicate": {"custom_model_data": 889041}, "model": "item/gun_crossbow/standard/minigun"},
+  { "predicate": {"custom_model_data": 889042}, "model": "item/gun_crossbow/standard/minigun_zoom"},
+
+  { "predicate": {"custom_model_data": 889043}, "model": "item/gun_crossbow/pipe/pistol"},
+  { "predicate": {"custom_model_data": 889044}, "model": "item/gun_crossbow/pipe/pistol_zoom"},
+  { "predicate": {"custom_model_data": 889045}, "model": "item/gun_crossbow/pipe/assault_rifle"},
+  { "predicate": {"custom_model_data": 889046}, "model": "item/gun_crossbow/pipe/assault_rifle_zoom"},
+  { "predicate": {"custom_model_data": 889047}, "model": "item/gun_crossbow/pipe/sniper_rifle"},
+  { "predicate": {"custom_model_data": 889048}, "model": "item/gun_crossbow/pipe/sniper_rifle_zoom"},
+  { "predicate": {"custom_model_data": 889049}, "model": "item/gun_crossbow/pipe/shotgun"},
+  { "predicate": {"custom_model_data": 889050}, "model": "item/gun_crossbow/pipe/shotgun_zoom"},
+
+  { "predicate": {"custom_model_data": 889051}, "model": "item/gun_crossbow/modern/glock_17"},
+  { "predicate": {"custom_model_data": 889052}, "model": "item/gun_crossbow/modern/glock_17_zoom"},
+  { "predicate": {"custom_model_data": 889053}, "model": "item/gun_crossbow/modern/desert_eagle"},
+  { "predicate": {"custom_model_data": 889054}, "model": "item/gun_crossbow/modern/desert_eagle_zoom"},
+  { "predicate": {"custom_model_data": 889055}, "model": "item/gun_crossbow/modern/thompson_machine_gun"},
+  { "predicate": {"custom_model_data": 889056}, "model": "item/gun_crossbow/modern/thompson_machine_gun_zoom"},
+  { "predicate": {"custom_model_data": 889057}, "model": "item/gun_crossbow/modern/ak47"},
+  { "predicate": {"custom_model_data": 889058}, "model": "item/gun_crossbow/modern/ak47_zoom"},
+  { "predicate": {"custom_model_data": 889059}, "model": "item/gun_crossbow/modern/mp5"},
+  { "predicate": {"custom_model_data": 889060}, "model": "item/gun_crossbow/modern/mp5_zoom"},
+  { "predicate": {"custom_model_data": 889061}, "model": "item/gun_crossbow/modern/m4_carabine"},
+  { "predicate": {"custom_model_data": 889062}, "model": "item/gun_crossbow/modern/m4_carabine_zoom"},
+  { "predicate": {"custom_model_data": 889063}, "model": "item/gun_crossbow/modern/remington_870"},
+  { "predicate": {"custom_model_data": 889064}, "model": "item/gun_crossbow/modern/remington_870_zoom"},
+  { "predicate": {"custom_model_data": 889065}, "model": "item/gun_crossbow/modern/spas_12"},
+  { "predicate": {"custom_model_data": 889066}, "model": "item/gun_crossbow/modern/spas_12_zoom"},
+  { "predicate": {"custom_model_data": 889067}, "model": "item/gun_crossbow/modern/barrett_m82"},
+  { "predicate": {"custom_model_data": 889068}, "model": "item/gun_crossbow/modern/barrett_m82_zoom"},
+  { "predicate": {"custom_model_data": 889069}, "model": "item/gun_crossbow/modern/m1a"},
+  { "predicate": {"custom_model_data": 889070}, "model": "item/gun_crossbow/modern/m1a_zoom"},
+  { "predicate": {"custom_model_data": 889071}, "model": "item/gun_crossbow/modern/44_magnum"},
+  { "predicate": {"custom_model_data": 889072}, "model": "item/gun_crossbow/modern/44_magnum_zoom"},
+  { "predicate": {"custom_model_data": 889073}, "model": "item/gun_crossbow/modern/beretta_486"},
+  { "predicate": {"custom_model_data": 889074}, "model": "item/gun_crossbow/modern/beretta_486_zoom"},
+  { "predicate": {"custom_model_data": 889075}, "model": "item/gun_crossbow/modern/winchester_model_70"},
+  { "predicate": {"custom_model_data": 889076}, "model": "item/gun_crossbow/modern/winchester_model_70_zoom"},
+  { "predicate": {"custom_model_data": 889077}, "model": "item/gun_crossbow/modern/fn_scar"},
+  { "predicate": {"custom_model_data": 889078}, "model": "item/gun_crossbow/modern/fn_scar_zoom"},
+  { "predicate": {"custom_model_data": 889079}, "model": "item/gun_crossbow/modern/rpg_7"},
+  { "predicate": {"custom_model_data": 889080}, "model": "item/gun_crossbow/modern/rpg_7_zoom"},
+
+  { "predicate": {"custom_model_data": 889081}, "model": "item/gun_crossbow/nes_zapper/nes_zapper_orange"},
+  { "predicate": {"custom_model_data": 889082}, "model": "item/gun_crossbow/nes_zapper/nes_zapper_orange_zoom"},
+  { "predicate": {"custom_model_data": 889083}, "model": "item/gun_crossbow/nes_zapper/nes_zapper_gray"},
+  { "predicate": {"custom_model_data": 889084}, "model": "item/gun_crossbow/nes_zapper/nes_zapper_gray_zoom"}
+    ]
+  }

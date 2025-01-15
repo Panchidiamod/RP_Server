@@ -1,0 +1,20 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/white_dye"
+    },
+
+    "overrides": [
+      { "predicate": {"custom_model_data": 889029}, "model": "item/medicine/bandage"},
+      { "predicate": {"custom_model_data": 889030}, "model": "item/medicine/adv_bandage"},
+      { "predicate": {"custom_model_data": 889031}, "model": "item/medicine/medkit"},
+      { "predicate": {"custom_model_data": 889032}, "model": "item/medicine/regeneration"},
+      { "predicate": {"custom_model_data": 889033}, "model": "item/medicine/absorption"},
+      { "predicate": {"custom_model_data": 889034}, "model": "item/medicine/swiftness"},
+      { "predicate": {"custom_model_data": 889035}, "model": "item/medicine/resistance"},
+      { "predicate": {"custom_model_data": 889036}, "model": "item/medicine/health_boost"},
+      { "predicate": {"custom_model_data": 889037}, "model": "item/medicine/minor_cure"},
+      { "predicate": {"custom_model_data": 889038}, "model": "item/medicine/antidote"},
+      { "predicate": {"custom_model_data": 889039}, "model": "item/equipment/laser_shield"}
+    ]
+  }

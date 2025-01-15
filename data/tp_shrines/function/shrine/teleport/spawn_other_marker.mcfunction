@@ -1,0 +1,2 @@
+$summon marker $(tp_location_x) $(tp_location_y) $(tp_location_z) {Tags:["tp_shrines.effect_marker","tp_shrines.other_marker"]}
+$execute positioned $(tp_location_x) $(tp_location_y) $(tp_location_z) run scoreboard players set @n[type=marker,tag=tp_shrines.effect_marker,distance=..3] tp_shrines.tp_cooldown 50

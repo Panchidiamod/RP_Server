@@ -1,0 +1,18 @@
+{
+ "parent": "item/handheld",
+ "textures": {
+  "layer0": "item/wooden_axe"
+ },
+
+ "overrides": [
+  { "predicate": {"custom_model_data": 787000}, "model": "item/melee/butter_knife"},
+  { "predicate": {"custom_model_data": 787001}, "model": "item/melee/cleaver"},
+  { "predicate": {"custom_model_data": 787002}, "model": "item/melee/combat_knife"},
+  { "predicate": {"custom_model_data": 787005}, "model": "item/melee/kitchen_knife"},
+  { "predicate": {"custom_model_data": 787008}, "model": "item/melee/police_baton"},
+  { "predicate": {"custom_model_data": 787009}, "model": "item/melee/sledgehammer"},
+  { "predicate": {"custom_model_data": 787010}, "model": "item/melee/frying_pan"},
+  { "predicate": {"custom_model_data": 787011}, "model": "item/melee/kitchen_shears"},
+  { "predicate": {"custom_model_data": 787012}, "model": "item/melee/hatchet"}
+ ]
+}

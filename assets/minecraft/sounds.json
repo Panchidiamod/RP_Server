@@ -1,0 +1,646 @@
+{
+  "ray_gun_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/gbg/ray_gun_fire",
+        "stream": "false"
+      }
+    ]
+  },
+  "laser_shield": {
+    "sounds": [
+      {
+        "name": "equipment/laser_shield",
+        "stream": "true"
+      }
+    ]
+  },
+  "pistol_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/gbg/pistol_reload",
+        "stream": "false"
+      }
+    ]
+  },
+  "assault_rifle_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/gbg/assault_rifle_reload",
+        "stream": "true"
+      }
+    ]
+  },
+  "shotgun_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/gbg/shotgun_reload",
+        "stream": "true"
+      }
+    ]
+  },
+  "sniper_rifle_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/gbg/sniper_rifle_reload",
+        "stream": "true"
+      }
+    ]
+  },
+  "laser_cannon_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/gbg/laser_cannon_reload",
+        "stream": "true"
+      }
+    ]
+  },
+  "laser_pistol_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/gbg/laser_pistol_reload",
+        "stream": "true"
+      }
+    ]
+  },
+  "beep": {
+    "sounds": [
+      {
+        "name": "equipment/beep",
+        "stream": "false"
+      }
+    ]
+  },
+  "assault_rifle_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/gbg/assault_rifle_fire",
+        "stream": "false"
+      }
+    ]
+  },
+  "laser_cannon_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/gbg/laser_cannon_fire",
+        "stream": "false"
+      }
+    ]
+  },
+  "laser_pistol_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/gbg/laser_pistol_fire",
+        "stream": "false"
+      }
+    ]
+  },
+  "pistol_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/gbg/pistol_fire",
+        "stream": "false"
+      }
+    ]
+  },
+  "shotgun_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/gbg/shotgun_fire",
+        "stream": "false"
+      }
+    ]
+  },
+  "sniper_rifle_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/gbg/sniper_rifle_fire",
+        "stream": "false"
+      }
+    ]
+  },
+  "laser_rifle_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/gbg/laser_rifle_fire",
+        "stream": "false"
+      }
+    ]
+  },
+  "shotgun_cocking": {
+    "sounds": [
+      {
+        "name": "gun/reload/gbg/shotgun_cocking",
+        "stream": "false"
+      }
+    ]
+  },
+  "bandage_use": {
+    "sounds": [
+      {
+        "name": "medical/bandage_use",
+        "stream": "true"
+      }
+    ]
+  },
+  "syringe_use": {
+    "sounds": [
+      {
+        "name": "medical/syringe_use",
+        "stream": "true"
+      }
+    ]
+  },
+  "turret_explode": {
+    "sounds": [
+      {
+        "name": "turret/explode1",
+        "stream": "true"
+      },
+      {
+        "name": "turret/explode2",
+        "stream": "true"
+      },
+      {
+        "name": "turret/explode3",
+        "stream": "true"
+      }
+    ]
+  },
+  "turret_lower": {
+    "sounds": [
+      {
+        "name": "turret/lower1",
+        "stream": "false"
+      },
+      {
+        "name": "turret/lower2",
+        "stream": "false"
+      },
+      {
+        "name": "turret/lower3",
+        "stream": "false"
+      }
+    ]
+  },
+  "turret_raise": {
+    "sounds": [
+      {
+        "name": "turret/raise1",
+        "stream": "false"
+      },
+      {
+        "name": "turret/raise2",
+        "stream": "false"
+      },
+      {
+        "name": "turret/raise3",
+        "stream": "false"
+      }
+    ]
+  },
+  "auto_shot": {
+    "sounds": [
+      {
+        "name": "turret/auto_shot",
+        "stream": "false"
+      }
+    ]
+  },
+  "sentry_shot": {
+    "sounds": [
+      {
+        "name": "turret/sentry_shot",
+        "stream": "false"
+      }
+    ]
+  },
+  "perdition_shot": {
+    "sounds": [
+      {
+        "name": "turret/perdition_shot1",
+        "stream": "false"
+      },
+      {
+        "name": "turret/perdition_shot2",
+        "stream": "false"
+      },
+      {
+        "name": "turret/perdition_shot3",
+        "stream": "false"
+      },
+      {
+        "name": "turret/perdition_shot4",
+        "stream": "false"
+      }
+    ]
+  },
+  "turret_destroy": {
+    "sounds": [
+      {
+        "name": "turret/destroy",
+        "stream": "false"
+      }
+    ]
+  },
+  "turret_place": {
+    "sounds": [
+      {
+        "name": "turret/place",
+        "stream": "false"
+      }
+    ]
+  },
+  "auto_setup": {
+    "sounds": [
+      {
+        "name": "turret/auto_setup",
+        "stream": "true"
+      }
+    ]
+  },
+  "perdition_setup": {
+    "sounds": [
+      {
+        "name": "turret/perdition_setup",
+        "stream": "true"
+      }
+    ]
+  },
+  "gbg_duck_quack": {
+    "sounds": [
+      {
+        "name": "gbg_duck_quack",
+        "stream": "false"
+      }
+    ]
+  },
+  "bazooka_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/gbg/bazooka_fire",
+        "stream": false
+      }
+    ]
+  },
+  "flamethrower_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/gbg/flamethrower_reload",
+        "stream": true
+      }
+    ]
+  },
+  "minigun_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/gbg/minigun_fire",
+        "stream": false
+      }
+    ]
+  },
+  "uzi_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/gbg/uzi_fire",
+        "stream": false
+      }
+    ]
+  },
+  "uzi_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/gbg/uzi_reload",
+        "stream": true
+      }
+    ]
+  },
+  "lmg_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/gbg/lmg_fire",
+        "stream": false
+      }
+    ]
+  },
+  "lmg_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/gbg/lmg_reload",
+        "stream": true
+      }
+    ]
+  },
+  "pipe_pistol_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/pipe/pistol",
+        "stream": false
+      }
+    ]
+  },
+  "pipe_pistol_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/pipe/pistol",
+        "stream": true
+      }
+    ]
+  },
+  "pipe_assault_rifle_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/pipe/assault_rifle",
+        "stream": false
+      }
+    ]
+  },
+  "pipe_assault_rifle_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/pipe/assault_rifle",
+        "stream": true
+      }
+    ]
+  },
+  "pipe_sniper_rifle_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/pipe/sniper_rifle",
+        "stream": false
+      }
+    ]
+  },
+  "pipe_sniper_rifle_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/pipe/sniper_rifle",
+        "stream": true
+      }
+    ]
+  },
+  "pipe_shotgun_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/pipe/shotgun",
+        "stream": false
+      }
+    ]
+  },
+  "pipe_shotgun_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/pipe/shotgun",
+        "stream": true
+      }
+    ]
+  },
+  "glock_17_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/modern/glock_17_fire",
+        "stream": false
+      }
+    ]
+  },
+  "glock_17_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/modern/glock_17_reload",
+        "stream": true
+      }
+    ]
+  },
+  "desert_eagle_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/modern/desert_eagle_fire",
+        "stream": false
+      }
+    ]
+  },
+  "desert_eagle_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/modern/desert_eagle_reload",
+        "stream": true
+      }
+    ]
+  },
+  "m4_carabine_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/modern/m4_carabine_fire",
+        "stream": false
+      }
+    ]
+  },
+  "m4_carabine_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/modern/m4_carabine_reload",
+        "stream": true
+      }
+    ]
+  },
+  "mp5_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/modern/mp5_fire",
+        "stream": false
+      }
+    ]
+  },
+  "mp5_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/modern/mp5_reload",
+        "stream": true
+      }
+    ]
+  },
+  "ak47_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/modern/ak47_fire",
+        "stream": false
+      }
+    ]
+  },
+  "ak47_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/modern/ak47_reload",
+        "stream": true
+      }
+    ]
+  },
+  "thompson_machine_gun_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/modern/thompson_machine_gun_fire",
+        "stream": false
+      }
+    ]
+  },
+  "thompson_machine_gun_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/modern/thompson_machine_gun_reload",
+        "stream": true
+      }
+    ]
+  },
+  "remington_870_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/modern/remington_870_fire",
+        "stream": false
+      }
+    ]
+  },
+  "remington_870_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/modern/remington_870_reload",
+        "stream": true
+      }
+    ]
+  },
+  "spas_12_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/modern/spas_12_fire",
+        "stream": false
+      }
+    ]
+  },
+  "spas_12_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/modern/spas_12_reload",
+        "stream": true
+      }
+    ]
+  },
+  "m1a_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/modern/m1a_fire",
+        "stream": false
+      }
+    ]
+  },
+  "m1a_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/modern/m1a_reload",
+        "stream": true
+      }
+    ]
+  },
+  "barrett_m82_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/modern/barrett_m82_fire",
+        "stream": false
+      }
+    ]
+  },
+  "barrett_m82_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/modern/barrett_m82_reload",
+        "stream": true
+      }
+    ]
+  },
+  "nes_zapper_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/nes_zapper/nes_zapper",
+        "stream": false
+      }
+    ]
+  },
+  "beretta_486_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/modern/beretta_486_fire",
+        "stream": false
+      }
+    ]
+  },
+  "beretta_486_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/modern/beretta_486_reload",
+        "stream": true
+      }
+    ]
+  },
+  "44_magnum_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/modern/44_magnum_fire",
+        "stream": false
+      }
+    ]
+  },
+  "44_magnum_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/modern/44_magnum_reload",
+        "stream": true
+      }
+    ]
+  },
+  "winchester_model_70_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/modern/winchester_model_70_fire",
+        "stream": false
+      }
+    ]
+  },
+  "winchester_model_70_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/modern/winchester_model_70_reload",
+        "stream": true
+      }
+    ]
+  },
+  "fn_scar_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/modern/fn_scar_fire",
+        "stream": false
+      }
+    ]
+  },
+  "fn_scar_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/modern/fn_scar_reload",
+        "stream": true
+      }
+    ]
+  },
+  "austeyr_ef88_fire": {
+    "sounds": [
+      {
+        "name": "gun/shoot/modern/austeyr_ef88_fire",
+        "stream": false
+      }
+    ]
+  },
+  "austeyr_ef88_reload": {
+    "sounds": [
+      {
+        "name": "gun/reload/modern/austeyr_ef88_reload",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/item_frame"
+    },
+
+    "overrides": [
+      { "predicate": {"custom_model_data": 15100}, "model": "item/equipment/c4"},
+      { "predicate": {"custom_model_data": 15101}, "model": "item/equipment/land_mine"},
+
+      { "predicate": {"custom_model_data": 25000}, "model": "item/turret/auto/functional/full"},
+      { "predicate": {"custom_model_data": 25001}, "model": "item/turret/auto/functional/head"},
+      { "predicate": {"custom_model_data": 25002}, "model": "item/turret/auto/functional/body"},
+
+      { "predicate": {"custom_model_data": 25003}, "model": "item/turret/auto/damaged/full"},
+      { "predicate": {"custom_model_data": 25004}, "model": "item/turret/auto/damaged/head"},
+      { "predicate": {"custom_model_data": 25005}, "model": "item/turret/auto/damaged/body"},
+
+      { "predicate": {"custom_model_data": 25006}, "model": "item/turret/auto/destroyed/full"},
+      { "predicate": {"custom_model_data": 25007}, "model": "item/turret/auto/destroyed/head"},
+      { "predicate": {"custom_model_data": 25008}, "model": "item/turret/auto/destroyed/body"},
+
+      { "predicate": {"custom_model_data": 25009}, "model": "item/turret/sentry/functional/full"},
+      { "predicate": {"custom_model_data": 25010}, "model": "item/turret/sentry/functional/head"},
+      { "predicate": {"custom_model_data": 25011}, "model": "item/turret/sentry/functional/body"},
+
+      { "predicate": {"custom_model_data": 25012}, "model": "item/turret/sentry/damaged/full"},
+      { "predicate": {"custom_model_data": 25013}, "model": "item/turret/sentry/damaged/head"},
+      { "predicate": {"custom_model_data": 25014}, "model": "item/turret/sentry/damaged/body"},
+
+      { "predicate": {"custom_model_data": 25015}, "model": "item/turret/sentry/destroyed/full"},
+      { "predicate": {"custom_model_data": 25016}, "model": "item/turret/sentry/destroyed/head"},
+      { "predicate": {"custom_model_data": 25017}, "model": "item/turret/sentry/destroyed/body"},
+
+      { "predicate": {"custom_model_data": 25018}, "model": "item/turret/perdition/functional/full"},
+      { "predicate": {"custom_model_data": 25019}, "model": "item/turret/perdition/functional/head"},
+      { "predicate": {"custom_model_data": 25020}, "model": "item/turret/perdition/functional/body"},
+
+      { "predicate": {"custom_model_data": 25021}, "model": "item/turret/perdition/damaged/full"},
+      { "predicate": {"custom_model_data": 25022}, "model": "item/turret/perdition/damaged/head"},
+      { "predicate": {"custom_model_data": 25023}, "model": "item/turret/perdition/damaged/body"},
+
+      { "predicate": {"custom_model_data": 25024}, "model": "item/turret/perdition/destroyed/full"},
+      { "predicate": {"custom_model_data": 25025}, "model": "item/turret/perdition/destroyed/head"},
+      { "predicate": {"custom_model_data": 25026}, "model": "item/turret/perdition/destroyed/body"}
+    ]
+  }

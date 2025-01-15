@@ -1,0 +1,7 @@
+{
+  "message_id": "tp_shrines.bad_teleport",
+  "exhaustion": 5,
+  "scaling": "never",
+  "effects": "burning",
+  "death_message_type": "intentional_game_design"
+}
